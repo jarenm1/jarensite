@@ -1,0 +1,39 @@
+body.dark-mode {
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+
+html {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2;
+}
+
+a:any-link {
+    color: white;
+    text-decoration: none;
+}
+
+@keyframes fade-in {
+    0% {opacity: 0;}
+    100% {opacity: 100;}
+}
+
+#header {
+    text-align: center;
+    animation-name: fade-in;
+    animation-duration: 4s;
+}
+
+#main {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+    width: 500px;
+}
+
+ul {
+    text-align: left;
+    float: left;
+}
